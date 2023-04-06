@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.header {
+    padding: 10px 100px;
+    height: 20vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar i {
+    font-size: 30px;
+}
+
+.mainTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+    min-height: 100vh;
+}
+
+.mainTopTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mainTopTitle h1 {
+    font-size: 50px;
+    color: #1F3F68;
+}
+
+.mainTopTitle p {
+    max-width: 400px;
+}
+
+.mainTopTitle .btnTop {
+    border: none;
+    background-color: transparent;
+}
+.mainTopTitle  .btnTop a {
+    color: white;
+    background: #5A98D0;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.mainTopTitle  .btnTop a:hover {
+    background: aqua;
+    color: black;
+    letter-spacing: 2px;
+}
+.mainTopImg img {
+    width: 100%;
+}
+
+.descTitle1 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.mainDecs {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 100px;
+    min-height: 100vh;
+}
+.descTitle1 h1 {
+    color: #1F3F68;
+}
+.descTitle1 .box1 {
+    background: white;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    padding: 30px;
+    width: 380px;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.descTitle1 .box1 p {
+    max-width: 400px;
+}
+
+.descTitle1 .box1 .box1Icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.descTitle2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+}
+.descTitle2 .box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+    width: 380px;
+    height: 525px;
+    background: white;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+}
+.descTitle2 .box2 p {
+    max-width: 400px;
+}
+.descTitle2 .box2 .box2Icon {
+    display: flex;
+    gap: 20px;
+}
+
+.mainImgTitle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 50vh;
+}
+.mainImgTitle p {
+    max-width: 400px;
+    
+}
+.mainImgs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+}
+.mainImgs img {
+    width: 100%;
+    transition: all 0.5s;
+}
+.mainImgs img:hover {
+    transform: scale(1.01);
+}
+.mainImagesTitle {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.app1 {
+    position: relative;
+}
+.app1 img {
+    width: 100%;
+    transition: all 0.5s;
+}
+.app1 img:hover {
+    transform: scale(1.01);
+}
+.app1Title {
+    position: absolute;
+    top: 30px;
+    text-align: center;
+    left: 50px;
+    color: white;
+}
+.mainApps {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainTable {
+    min-height: 100vh;
+    background: #5A98D0;
+}
+
+.tableTitle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    min-height: 50vh;
+    font-size: 20px;
+}
+.tableTitle p {
+    max-width: 500px;
+}
+
+.tb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    color: white;
+}
+.tb tr td {
+    border: 2px solid white;
+    padding: 30px;
+    border-top: none;
+    border-right: none;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+.tb tr td:hover {
+    background: aqua;
+    color: black;
+}
+.tb tr .left {
+    border-left: none;
+}
+.tb .bottom td {
+    border-bottom: none;
+}
+.tb .bottom .bg {
+    background: #6987a2;
+}
+
+.footer {
+    background: #316099;
+    min-height: 100vh;
+}
+
+.footTitle1 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+}
+.footerTitle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 50vh;
+}
+
+.footTitle1 p {
+    max-width: 400px;
+}
+
+.footBtn a {
+    background: #5A98D0;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.footBtn a:hover {
+    background: aqua;
+    color: black;
+    letter-spacing: 2px;
+}
+.footer hr {
+    width: 60%;
+}
+
+
+.logoFlex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.footBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footBox .A {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.foot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.footBox .T {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+.footBox .E {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.footBox .copy {
+    color: #999;
+}
+
+
+.footBox2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footBox2 h1 {
+    color: white;
+}
+.footBox2 ul li a {
+    color: white;
+    transition: all 0.5s;
+}
+.footBox2 ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footBox2 ul {
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 750px ) {
+    .mainDecs {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 650px ) {
+    .mainTopTitle h1 {
+        font-size: 30px;
+        color: #1F3F68;
+    }
+}
+@media (max-width: 600px ) {
+    .footerTitle {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+@media (max-width: 500px ) {
+    .mainTop {
+        flex-direction: column;
+    }
+    .foot {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media (max-width: 450px ) {
+    .mainImagesTitle h1 {
+        font-size: 10px;
+    }
+    .mainImagesTitle p {
+        font-size: 10px;
+    }
+    .mainApps {
+        flex-direction: column;
+        padding: 0 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .tb tr td {
+        font-size: 8px;
+    }
+}
+@media (max-width: 350px ) {
+    .header {
+        padding: 10px 50px;
+    } 
+    .mainTop {
+        padding: 10px 50px;
+    }
+    .mainDecs {
+        padding: 10px 50px;
+    }
+    .mainImgTitle {
+        flex-direction: column;
+        padding: 10px 50px;
+    }
+    .tableTitle {
+        flex-direction: column;
+        padding: 10px 50px;
+        width: 100%;
+    }
+    .tb tr td {
+        padding: 15px;
+    }
+    .footerTitle {
+        padding: 10px 50px;
+    }
+    .foot {
+        
+        padding: 10px 50px;
+    }
+}
